@@ -1,0 +1,16 @@
+{
+  "root": true,
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["tsdoc", "prettier", "@typescript-eslint"],
+  "extends": ["eslint:recommended", "plugin:@typescript-eslint/recommended"],
+  "overrides": [
+    {
+      "files": ["*.ts"],
+      "rules": {
+        "tsdoc/syntax": "error",
+        "prettier/prettier": "warn",
+        "@typescript-eslint/no-extra-semi": "off"
+      }
+    }
+  ]
+}
