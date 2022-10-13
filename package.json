@@ -1,5 +1,5 @@
 {
-  "name": "@bytewaveco/coinbasejs",
+  "name": "@bytewaveco/coinbase",
   "version": "1.0.0-rc.1",
   "description": "A modern, universal, and reliable Coinbase API client.",
   "keywords": [
@@ -13,18 +13,19 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/bytewaveco/coinbasejs"
+    "url": "https://github.com/bytewaveco/coinbase"
   },
-  "homepage": "https://github.com/bytewaveco/coinbasejs",
+  "homepage": "https://github.com/bytewaveco/coinbase",
   "bugs": {
-    "url": "https://github.com/bytewaveco/coinbasejs/issues",
+    "url": "https://github.com/bytewaveco/coinbase/issues",
     "email": "kaden.griffith@bytewave.co"
   },
   "private": false,
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
-    "build": "vite build",
+    "build": "npm run clean && vite build",
+    "clean": "rimraf dist",
     "lint": "eslint src/**/*.ts",
     "format:check": "prettier --check src/**/*.ts",
     "format": "prettier --write src/**/*.ts",
@@ -52,6 +53,7 @@
     "eslint-plugin-tsdoc": "^0.2.17",
     "prettier": "^2.7.1",
     "prettier-plugin-organize-imports": "^3.0.3",
+    "rimraf": "^3.0.2",
     "tsdoc": "^0.0.4",
     "typescript": "^4.7.4",
     "vite": "^3.0.7",

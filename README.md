@@ -13,7 +13,7 @@ If you are looking for a library to interact with Coinbase Pro, we recommend [co
 ## Installation
 
 ```bash
-npm install @bytewaveco/coinbasejs
+npm install @bytewaveco/coinbase
 ```
 
 ## Roadmap
