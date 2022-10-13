@@ -1,4 +1,4 @@
-# Coinbase.js
+# Coinbase
 
 > **Note**
 >
