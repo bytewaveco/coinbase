@@ -1,23 +1,23 @@
 {
-  "name": "@bytewaveco/coinbase",
-  "version": "1.0.0",
-  "description": "A Coinbase API client",
+  "name": "@bytewaveco/coinbasejs",
+  "version": "1.0.0-rc.1",
+  "description": "A modern, universal, and reliable Coinbase API client.",
   "keywords": [
     "coinbase",
     "coinbase pro",
+    "crypto",
+    "trading",
     "finance",
-    "candle",
-    "candlestick",
     "bytewave",
     "bytewaveco"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/bytewaveco/coinbase.git"
+    "url": "https://github.com/bytewaveco/coinbasejs"
   },
-  "homepage": "https://github.com/bytewaveco/coinbase.git",
+  "homepage": "https://github.com/bytewaveco/coinbasejs",
   "bugs": {
-    "url": "https://github.com/bytewaveco/coinbase/issues",
+    "url": "https://github.com/bytewaveco/coinbasejs/issues",
     "email": "kaden.griffith@bytewave.co"
   },
   "private": false,
@@ -35,10 +35,9 @@
   "author": "Kaden Griffith <kaden.griffith@bytewave.co> (bytewave.co)",
   "license": "MIT",
   "dependencies": {
+    "crypto-js": "^4.1.1",
     "date-fns": "^2.29.2",
-    "isomorphic-fetch": "^3.0.0",
-    "technicalindicators": "^3.1.0",
-    "tsdoc": "^0.0.4"
+    "isomorphic-fetch": "^3.0.0"
   },
   "devDependencies": {
     "@types/crypto-js": "^4.1.1",
@@ -47,13 +46,13 @@
     "@typescript-eslint/parser": "^5.33.0",
     "@vitest/ui": "^0.23.2",
     "c8": "^7.12.0",
-    "crypto-js": "^4.1.1",
     "dotenv": "^16.0.2",
     "eslint": "^8.21.0",
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-tsdoc": "^0.2.17",
     "prettier": "^2.7.1",
     "prettier-plugin-organize-imports": "^3.0.3",
+    "tsdoc": "^0.0.4",
     "typescript": "^4.7.4",
     "vite": "^3.0.7",
     "vite-plugin-dts": "^1.4.1",
